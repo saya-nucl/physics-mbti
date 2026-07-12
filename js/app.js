@@ -1,5 +1,5 @@
-import { questions } from './data/questions.js?v=10';
-import { results } from './data/results.js?v=10';
+import { questions } from './data/questions.js?v=11';
+import { results } from './data/results.js?v=11';
 
 // ==========================================================================
 // APPLICATION STATE
@@ -63,7 +63,7 @@ function renderIntro() {
       23の質問に回答し、あなたの思考スタイルが「理論か実験か」「ミクロかマクロか」などを診断します。
       あなたに最も近い歴史上の偉大な物理学者を解き明かしましょう。
     </p>
-    <p class="presented-by">Presented by <a href="https://nazeyama.com" target="_blank">nazeyama</a></p>
+    <p class="presented-by">Presented by <a href="https://youtube.com/@nazeyama?si=cP8br6dUTmOrhwvg" target="_blank">nazeyama</a></p>
     
     <div class="feature-grid">
       <div class="feature-card">
@@ -419,7 +419,7 @@ function renderResult() {
 あなたのタイプ：${typeCode} - ${data.typeTitle}
 似ている物理学者：${scientistNames}
 「${mainQuote}」
-提供：nazeyama (https://nazeyama.com)
+提供：nazeyama (https://youtube.com/@nazeyama?si=cP8br6dUTmOrhwvg)
 #物理版MBTI #PHYSICS_MBTI #nazeyama`;
 
   panel.innerHTML = `
@@ -454,9 +454,9 @@ function renderResult() {
         <span class="promo-label">Presented by Sponsor</span>
         <h3 class="promo-title">nazeyama（ナゼヤマ）</h3>
         <p class="promo-desc">
-          「なぜ？」を山のように積み重ねて、物理や宇宙の不思議をどこまでも深掘りする科学メディア。本診断の運営元です。
+          「なぜ？」を山のように積み重ねて、物理や宇宙の不思議をどこまでも深掘りする科学解説YouTubeチャンネル。本診断の運営元です。
         </p>
-        <a href="https://nazeyama.com" target="_blank" class="promo-link">nazeyamaを訪ねる ➔</a>
+        <a href="https://youtube.com/@nazeyama?si=cP8br6dUTmOrhwvg" target="_blank" class="promo-link">YouTubeチャンネルを訪ねる ➔</a>
       </div>
     </div>
     
