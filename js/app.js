@@ -1,5 +1,5 @@
-import { questions } from './data/questions.js?v=11';
-import { results } from './data/results.js?v=11';
+import { questions } from './data/questions.js?v=12';
+import { results } from './data/results.js?v=12';
 
 // ==========================================================================
 // APPLICATION STATE
@@ -454,7 +454,7 @@ function renderResult() {
         <span class="promo-label">Presented by Sponsor</span>
         <h3 class="promo-title">nazeyama（ナゼヤマ）</h3>
         <p class="promo-desc">
-          「なぜ？」を山のように積み重ねて、物理や宇宙の不思議をどこまでも深掘りする科学解説YouTubeチャンネル。本診断の運営元です。
+          理系大学院生のゆるりとした日常やトークをお届けするYouTubeチャンネル。本診断の運営元です。
         </p>
         <a href="https://youtube.com/@nazeyama?si=cP8br6dUTmOrhwvg" target="_blank" class="promo-link">YouTubeチャンネルを訪ねる ➔</a>
       </div>
