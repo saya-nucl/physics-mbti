@@ -75,11 +75,7 @@ function renderIntro() {
         <h3>偉人とのマッチング</h3>
         <p>アインシュタインやファインマンなど、あなたの思考モデルに最も近い歴史上の物理学者を紹介します。</p>
       </div>
-      <div class="feature-card">
-        <div class="feature-icon">💫</div>
-        <h3>美しいビジュアル</h3>
-        <p>量子の軌道をモチーフにしたネオンアニメーションと磨き抜かれたUIデザイン。</p>
-      </div>
+
     </div>
     
     <button id="start-btn" class="btn btn-primary">測定を開始する</button>
